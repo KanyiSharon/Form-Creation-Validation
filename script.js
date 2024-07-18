@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       document.getElementById("feedbackDiv").textContent =
         messages.join("<br>");
+      document.getElementById("feedbackDiv").innerHTML("");
       document.getElementById("feedbackDiv").style.color = "#dc3545";
     }
   });
